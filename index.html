@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEAK CONSULTING d.o.o.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #fff;
+      background-color: #0b0b0b;
+      line-height: 1.6;
+      font-size: 20px;
+    }
+    section {
+      padding: 80px 10%;
+    }
+    h1, h2 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 36px;
+      color: #e0e0e0;
+      margin-bottom: 40px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .hero {
+      position: relative;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+    .about img {
+      width: 45%;
+      border-radius: 10px;
+    }
+    .services, .advantages, .process {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 60px;
+      margin-bottom: 50px;
+    }
+    .service-item, .adv-item, .proc-item {
+      margin-bottom: 40px;
+    }
+    .service-item h3, .adv-item h3, .proc-item h3 {
+      color: #ffd700;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .contact-form {
+      background-color: #151515;
+      border-radius: 10px;
+      padding: 60px;
+      text-align: center;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 80%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+    .contact-form button {
+      padding: 15px 30px;
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+      background-color: #0d0d0d;
+      padding: 0 10%;
+    }
+    .contact-text {
+      max-width: 50%;
+    }
+    .contact-block img {
+      width: 45%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- GLAVNI EKRAN -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>PEAK CONSULTING d.o.o.</h1>
+      <p>Stručni partner u poslovnom i projektnom upravljanju. Pomažemo tvrtkama optimizirati poslovne procese, donositi bolje odluke i ostvarivati mjerljive rezultate kroz savjetovanje i učinkovite strategije upravljanja.</p>
+    </div>
+  </section>
+
+  <!-- O NAMA -->
+  <section>
+    <h2>Tko smo mi</h2>
+    <div class="about">
+      <div>
+        <p>PEAK CONSULTING d.o.o. specijalizirana je za poslovno i administrativno upravljanje te razvoj i koordinaciju projekata u privatnom i javnom sektoru. Naš tim kombinira znanje iz područja ekonomije, menadžmenta i financija kako bi klijentima pružio održiva i mjerljiva rješenja.</p>
+        <p>Fokusirani smo na strateško planiranje, upravljanje resursima i razvoj poslovnih modela koji povećavaju učinkovitost i konkurentnost. Naša misija je podržati rast i stabilnost vašeg poslovanja.</p>
+    </div>
+  </section>
+
+  <!-- USLUGE -->
+  <section class="services">
+    <h2>Naše Usluge</h2>
+    <div class="service-item">
+      <h3>Poslovno i administrativno upravljanje</h3>
+      <p>Razvijamo i implementiramo sustave koji optimiziraju administrativne procese, smanjuju troškove i povećavaju operativnu učinkovitost organizacije. Naša rješenja su prilagođena specifičnim potrebama svake tvrtke.</p>
+    </div>
+    <div class="service-item">
+      <h3>Projektni menadžment</h3>
+      <p>Od ideje do realizacije – vodimo projekte kroz sve faze, uz strogu kontrolu budžeta, rokova i kvalitete. Poseban fokus stavljamo na EU projekte i razvojne inicijative.</p>
+    </div>
+    <div class="service-item">
+      <h3>Poslovno savjetovanje</h3>
+      <p>Pomažemo klijentima definirati strategije rasta, restrukturirati poslovanje i donositi informirane odluke temeljene na podacima i tržišnim analizama.</p>
+    </div>
+  </section>
+
+  <!-- PREDNOSTI -->
+  <section class="advantages">
+    <h2>Zašto Odabrati Nas</h2>
+    <div class="adv-item">
+      <h3>Iskustvo i stručnost</h3>
+      <p>Naš tim čine konzultanti s dugogodišnjim iskustvom u financijama, menadžmentu i razvoju projekata različitih industrija.</p>
+    </div>
+    <div class="adv-item">
+      <h3>Individualni pristup</h3>
+      <p>Svaki klijent i svaki projekt su jedinstveni – zato kreiramo prilagođene strategije koje odražavaju konkretne ciljeve i izazove vašeg poslovanja.</p>
+    </div>
+    <div class="adv-item">
+      <h3>Rezultati i pouzdanost</h3>
+      <p>Naš fokus je na stvaranju mjerljivih rezultata i dugoročne vrijednosti, uz potpuno povjerenje i transparentnu suradnju.</p>
+    </div>
+  </section>
+
+  <!-- NAŠ PROCES -->
+  <section class="process">
+    <h2>Kako Radimo</h2>
+    <div class="proc-item">
+      <h3>1. Analiza i Strategija</h3>
+      <p>Detaljno analiziramo vaše poslovanje i definiramo ključne ciljeve te razvijamo strategiju prilagođenu vašim potrebama.</p>
+    </div>
+    <div class="proc-item">
+      <h3>2. Implementacija i Upravljanje</h3>
+      <p>Primjenjujemo planirane aktivnosti uz stalni nadzor, osiguravajući kvalitetu, točnost i učinkovitost svake faze projekta.</p>
+    </div>
+    <div class="proc-item">
+      <h3>3. Evaluacija i Rast</h3>
+      <p>Pratimo rezultate, optimiziramo procese i predlažemo nove smjerove za daljnji razvoj i rast poslovanja.</p>
+    </div>
+  </section>
+
+  <!-- KONTAKTNA FORMA -->
+  <section class="contact-form">
+    <h2>Kontaktirajte Nas</h2>
+    <p>Otvoreni smo za nove suradnje i projekte. Javite nam se s vašim izazovom – zajedno ćemo pronaći najbolje rješenje.</p>
+    <form>
+      <input type="text" placeholder="Ime i prezime" required><br>
+      <input type="email" placeholder="Email adresa" required><br>
+      <textarea rows="5" placeholder="Vaša poruka" required></textarea><br>
+      <button type="submit">Pošalji Poruku</button>
+    </form>
+  </section>
+
+  <!-- KONTAKTI -->
+  <section class="contact-block">
+    <div class="contact-text">
+      <h2>Ostanimo u Kontaktu</h2>
+      <p>Kontaktirajte nas putem e-maila i započnimo razgovor o vašim poslovnim ciljevima. Vjerujemo da svaka suradnja počinje dobrim razumijevanjem i jasnom vizijom uspjeha.</p>
+      <p><strong>Email:</strong> <a href="mailto:team@peakconsulting.team" style="color:#ffd700;">team@peakconsulting.team</a></p>
+      <p><strong>Adresa:</strong> Ulica Miroslava Krleže 12, 10360 Sesvete, Grad Zagreb</p>
+
+  </section>
+
+</body>
+</html>
